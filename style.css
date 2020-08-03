@@ -1,0 +1,39 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.nav-link, .dropdown-item {
+  color: #B1AFAE;
+}
+
+.nav-link:hover {
+  color: #691F16;
+}
+
+.dropdown-item:hover {
+  color: #691F16;
+}
+
+.dropdown-item:active {
+  background-color: #ffffff;
+  color: #2E0C08;
+}
+
+.footertext {
+  font-size: 14px;
+}
+
+.carousel-inner > .carousel-item {
+  height: 600px;
+}
+
+.carousel-item > img {
+  align-items: center;
+  height: 100%;
+  max-width: 100%; 
+  object-fit: cover;
+}
